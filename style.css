@@ -1,0 +1,180 @@
+*{
+    margin :0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;   /* border area is counted inside it's height and width */
+}
+.navbar{
+    height: 60px ;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px ;
+}
+.logo{
+    background-image: url("amazon_logo.png"); /* div needs to be given some dimensions to be actually seen in our webpage*/
+    background-size: cover;  /* sets the sixe of elements of elements background image */
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{                /* hover is a PSEUDO CLASS -> that defines a special state of element */
+    border:2px solid white;
+}
+
+/* BOX 2*/
+
+.address1{
+    color:#cccccc;
+    font-size: 0.9rem; 
+    margin-left:10px;
+    margin-bottom: 4px;
+ 
+}
+.address2{
+    font-size: 1rem;
+     
+}
+.add-icon{
+    display: flex;
+}
+/* BOX 3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #febd69;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border:none;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width:45px;
+    background-color: #febd69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:black;
+}
+
+/* BOX 4 */
+span{
+    font-size: 0.8rem;
+}
+.nav2{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.cart-item i{       /*  i is a selector that selects all the icons inside the parent class   */
+    font-size: 30px;
+    
+}
+.cart-item{
+    font-size:0.9rem;
+    font-weight: 600;
+}
+.panel{
+    background-color: #252e4c;
+    height: 40px;
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.panel-ops p {
+    display:inline;
+    font-size: 18px;
+    margin-right: 7px;
+}
+.panel-ops {
+    width: 90%;
+}
+.panel-all{
+    
+    margin-right: 2%;
+    margin-left: 1%;
+    font-size:20px;
+    font-weight: 600;
+}
+
+/*  HERO SECTION */
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size : cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero-message{
+    background-color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+.hero-message a{
+    color :#2162A1
+}
+/* SHOP SECTION */
+.shop-section{
+    display: flex;
+    justify-content: space-around ;
+    background-color:  #404a6a;
+    /* background: linear-gradient(to bottom,#d681ff 0%, #fff 100%);   This is used to make the fading effect */
+    background: linear-gradient(to bottom, #d681ff 0px, #fff 300px, #fff 100%);  /*  This is used to make the fading effect */
+}   
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+.box p{
+    font-size: 1.2rem;
+    font-weight: 550;
+    margin-top:20px;
+    margin-left: 5%;
+}
+.box span{
+    font-size: 1rem;
+    margin-left: 5%;
+}
+.box-image{
+    background-size: cover;
+    height: 300px;
+    width: 90%;
+    margin-left:5%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
