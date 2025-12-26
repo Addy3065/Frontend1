@@ -16,10 +16,12 @@
     width: 100px ;
 }
 .logo{
-    background-image: url("amazon_logo.png"); /* div needs to be given some dimensions to be actually seen in our webpage*/
-    background-size: cover;  /* sets the sixe of elements of elements background image */
-    height: 50px;
-    width: 100px;
+    background-image: url("site.png"); /* div needs to be given some dimensions to be actually seen in our webpage*/
+    background-size:contain;  /*Scales the image (while preserving its ratio) to the smallest possible size to fill the containe*/
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
 }
 .border{
     border: 2px solid transparent;
@@ -149,6 +151,7 @@ span{
 /* SHOP SECTION */
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around ;
     background-color:  #404a6a;
     /* background: linear-gradient(to bottom,#d681ff 0%, #fff 100%);   This is used to make the fading effect */
@@ -178,3 +181,54 @@ span{
     margin-top: 10px;
     margin-bottom: 20px;
 }
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #252e4c;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #202740 ;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li {
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+ul p {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.foot-panel3{
+    background-color: #202740;
+    color:white;
+    height: 70px;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo   {
+    background-image: url("amazon_logo.png"); /* div needs to be given some dimensions to be actually seen in our webpage*/
+    background-size:contain;  /*Scales the image (while preserving its ratio) to the smallest possible size to fill the containe*/
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px;
+    
+}
+
+
+
