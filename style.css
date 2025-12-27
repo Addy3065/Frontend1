@@ -16,12 +16,14 @@
     width: 100px ;
 }
 .logo{
-    background-image: url("site.png"); /* div needs to be given some dimensions to be actually seen in our webpage*/
-    background-size:contain;  /*Scales the image (while preserving its ratio) to the smallest possible size to fill the containe*/
+    height: 50px;
+    width: 100%;
+    background-color:red;
+    background-image: url("./site.png"); /* div needs to be given some dimensions to be actually seen in our webpage*/
+    background-size:cover;  /*Scales the image (while preserving its ratio) to the smallest possible size to fill the containe*/
     background-position: center;
     background-repeat: no-repeat;
-    height: 300px;
-    width: 100%;
+    
 }
 .border{
     border: 2px solid transparent;
@@ -220,15 +222,7 @@ ul p {
     justify-content: center;
     align-items: center;
 }
-.logo   {
-    background-image: url("amazon_logo.png"); /* div needs to be given some dimensions to be actually seen in our webpage*/
-    background-size:contain;  /*Scales the image (while preserving its ratio) to the smallest possible size to fill the containe*/
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 50px;
-    width: 100px;
-    
-}
+
 
 
 
